@@ -1,8 +1,8 @@
 # Lhat-Core
 ## 开发说明 DEVELOPING INSTRUCTIONS
-> 项目基于C++和JsonCpp库开发。  
+> 项目基于C++和JsonCPP库开发。  
 简单说明一下Lhat的核心怎么用：  
-下载release页面的文件，里面包含lib和dll文件，但是没有.h文件，你需要自行extern这些函数
+下载release页面的文件，里面包含lib和dll文件，但是没有.h文件，你需要自行extern这些函数。
 需要extern的函数：
 - `std::string pack(std::string rawMessage, std::string chatFrom, std::string chatWith, std::string messageType);`  
 - `Json::Value unpack(std::string jsonString);`  
